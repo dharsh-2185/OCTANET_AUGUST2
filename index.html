@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stylish To-Do List</title>
+    <title>Glassmorphism To-Do List</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="todo-container">
-        <h1>My To-Do List</h1>
-        <div class="input-container">
-            <input type="text" id="taskInput" placeholder="Add a new task..." />
-            <button onclick="addTask()">+</button>
+        <h2>My To-Do List</h2>
+        <div class="input-group">
+            <input type="text" id="taskInput" placeholder="Add a new task...">
+            <button id="addTaskBtn">+</button>
         </div>
         <ul id="taskList"></ul>
     </div>
-
     <script src="script.js"></script>
 </body>
 </html>
